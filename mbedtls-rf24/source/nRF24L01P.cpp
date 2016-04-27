@@ -1,48 +1,18 @@
-/**
- * @file nRF24L01P.cpp
- *
- * @author Owen Edwards
- * 
- * @section LICENSE
- *
- * Copyright (c) 2010 Owen Edwards
- *
- *    This program is free software: you can redistribute it and/or modify
- *    it under the terms of the GNU General Public License as published by
- *    the Free Software Foundation, either version 3 of the License, or
- *    (at your option) any later version.
- *
- *    This program is distributed in the hope that it will be useful,
- *    but WITHOUT ANY WARRANTY; without even the implied warranty of
- *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *    GNU General Public License for more details.
- *
- *    You should have received a copy of the GNU General Public License
- *    along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * @section DESCRIPTION
- *
- * nRF24L01+ Single Chip 2.4GHz Transceiver from Nordic Semiconductor.
- *
- * Datasheet:
- *
- * http://www.nordicsemi.no/files/Product/data_sheet/nRF24L01P_Product_Specification_1_0.pdf
- */
+
+/*
+* file nRF24L01p.cpp
+
+* RF24L01 chip Library
+* 
+* Last Updated 2016/04/12
+*/
+
 
 /**
  * Includes
  */
 #include "nRF24L01P.h"
 
-/**
- * Defines
- *
- * (Note that all defines here start with an underscore, e.g. '_NRF24L01P_MODE_UNKNOWN',
- *  and are local to this library.  The defines in the nRF24L01P.h file do not start
- *  with the underscore, and can be used by code to access this library.)
  */
 
 typedef enum {
